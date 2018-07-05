@@ -6,3 +6,5 @@
 6. git push origin <branchname>
 7. git clone <repolink> 
 8. git pull origin master : Incorporates changes from a remote repository into the current branch.
+
+Bonus Command : git commit -a --amend : Does not add a new commit. Instead combines previous commit and recent change.
