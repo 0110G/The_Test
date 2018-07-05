@@ -1,9 +1,9 @@
 1. git init 
 2. git add [filename] OR git add -A (adds all files) : Add files to staging area.
-3. git status : Lists the files in / out of the staging area
-4. git commit
+3. git status : Lists the files in / out of the staging area for the current branch.
+4. git commit : adds a version and modified file in the current branch. Same files in other branches don't get modified.
 5. git remote add origin <repolink>
-6. git push origin <branchname>
+6. git push origin <branchname> : Pushes the specified branch to remote.
 7. git clone <repolink> 
 8. git pull origin master : Incorporates changes from a remote repository into the current branch.
 
@@ -11,3 +11,4 @@ Bonus Command : git commit -a --amend : Does not add a new commit. Instead combi
 
 9. git branch : gives a list of branches
 10. git branch <branchname> : creates a branch named <branchname>
+
