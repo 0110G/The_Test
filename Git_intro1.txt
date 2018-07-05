@@ -8,3 +8,6 @@
 8. git pull origin master : Incorporates changes from a remote repository into the current branch.
 
 Bonus Command : git commit -a --amend : Does not add a new commit. Instead combines previous commit and recent change.
+
+9. git branch : gives a list of branches
+10. git branch <branchname> : creates a branch named <branchname>
