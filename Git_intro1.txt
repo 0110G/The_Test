@@ -12,3 +12,4 @@ Bonus Command : git commit -a --amend : Does not add a new commit. Instead combi
 9. git branch : gives a list of branches
 10. git branch <branchname> : creates a branch named <branchname>
 11. git merge <branchname> : merges the specified branch with the master branch
+12. git branch -d <branchname> : deletes the specified branch
