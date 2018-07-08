@@ -5,7 +5,7 @@
 5. git remote add origin <repolink>
 6. git push origin <branchname> : Pushes the specified branch to remote.
 7. git clone <repolink> 
-8. git pull origin master : Incorporates changes from a remote repository into the current branch.
+8. git pull origin <brachname> : Incorporates changes from a remote repository into the current branch.
 
 Bonus Command : git commit -a --amend : Does not add a new commit. Instead combines previous commit and recent change.
 
@@ -14,10 +14,13 @@ Bonus Command : git commit -a --amend : Does not add a new commit. Instead combi
 11. git merge <branchname> : merges the specified branch with the master branch
 12. git branch -d <branchname> : deletes the specified branch
 
-Variations of git log commands
-1. git log : gives a list of commit history.
-2. git log -<number> : gives a list of last n commits.
-3. git log --oneline : gives one line commit history.
-4. git log -i --grep="search" : searches in the commit history for a specific string, case insensitive.
-5. git log --author="search" : gives a list of commits made by the specified author name.
-6. git log -i -p -G"search" : gives the commits in which the specified search was committed in the code.
+13. Variations of git log commands
+ 1. git log : gives a list of commit history.
+ 2. git log -<number> : gives a list of last n commits.
+ 3. git log --oneline : gives one line commit history.
+ 4. git log -i --grep="search" : searches in the commit history for a specific string, case insensitive.
+ 5. git log --author="search" : gives a list of commits made by the specified author name.
+ 6. git log -i -p -G"search" : gives the commits in which the specified search was committed in the code.
+
+14. git rebase <branchname> : rebases the given branch into the active branch.
+15. git checkout master^ 
